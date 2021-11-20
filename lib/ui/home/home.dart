@@ -66,7 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           Text('All')
                         ],
                       ),
-                      Text('2')
+                      // Text('2')
                     ],
                   ),
                 )),
@@ -92,7 +92,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         Text('Today')
                       ],
                     ),
-                    Text('2')
+                    // Text('2')
                   ],
                 ),
               ),
@@ -120,7 +120,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           Text('Upcoming')
                         ],
                       ),
-                      Text('2')
+                      // Text('2')
                     ],
                   ),
                 ))

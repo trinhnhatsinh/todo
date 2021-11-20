@@ -109,7 +109,10 @@ abstract class _NoteStore with Store {
 
   @action
   Future<void> search(String key) async {
-    this.searchNotes =
-        this.notes.where((element) => element.title.contains(key)).toList();
+    this.searchNotes = this
+        .notes
+        .where((element) =>
+            element.title.toLowerCase().contains(key.toLowerCase()))
+        .toList();
   }
 }
